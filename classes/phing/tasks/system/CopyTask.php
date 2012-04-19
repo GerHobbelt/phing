@@ -350,7 +350,7 @@ class CopyTask extends Task {
      */
     private function _scan(&$fromDir, &$toDir, &$files, &$dirs) {
         /* mappers should be generic, so we get the mappers here and
-        pass them on to builMap. This method is not redundan like it seems */
+        pass them on to buildMap. This method is not redundant like it seems */
         $mapper = null;
         if ($this->mapperElement !== null) {
             $mapper = $this->mapperElement->getImplementation();

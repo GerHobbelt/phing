@@ -188,7 +188,7 @@ class IntrospectionHelper {
                     //     2) if that fails, assume that the part of the method after "create"
                     //    is the name of the return type (in many cases it is not)
                     
-                    // This isn't super important -- i.e. we're not instantaiting classes
+                    // This isn't super important -- i.e. we're not instantiating classes
                     // based on this information.  It's more just so that IntrospectionHelper
                     // can keep track of all the nested types -- and provide more helpful
                     // exception messages, etc.

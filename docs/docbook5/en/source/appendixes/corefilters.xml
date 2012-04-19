@@ -87,7 +87,7 @@
                         <entry>No</entry>
                     </row>
                     <row>
-                        <entry>classpatxlink:href</entry>
+                        <entry>classpathref</entry>
                         <entry><literal role="type">String</literal></entry>
                         <entry>Reference to classpath to use when including classes. This is added
                             to PHP's include_path.</entry>
@@ -99,7 +99,7 @@
         </table>
         <sect2>
             <title>Nested tags</title>
-            <para>The <literal>PhingFilterReader</literal> supports nested &lt;classpaentry>.</para>
+            <para>The <literal>PhingFilterReader</literal> supports nested &lt;classpath>.</para>
         </sect2>
         <sect2>
             <title>Advanced</title>
