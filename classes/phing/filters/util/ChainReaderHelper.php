@@ -44,7 +44,7 @@ include_once 'phing/filters/ChainableReader.php';
  *        <linecontains>
  *            <contains value="foo">
  *        </linecontains>
- *      <tabtospaces tablength="8" />
+ *        <tabtospaces tablength="8" />
  *    </filterchain>
  *
  *    getAssembledReader will return a Reader object wich read on each

@@ -23,7 +23,7 @@ require_once 'phing/Task.php';
 /**
  * fileHash
  *
- * Calculate either MD5 or SHA hash value of a specified file and retun the
+ * Calculate either MD5 or SHA hash value of a specified file and return the
  * value in a property
  *
  * @author      Johan Persson <johan162@gmail.com>
